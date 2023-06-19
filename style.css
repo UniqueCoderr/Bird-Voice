@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+}
+
+.title{
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0,0,0,.3)
+}
+
+h1{
+    padding: 0 20px;
+    letter-spacing: 3px;
+    font-size: 50px;
+}
+
+.container{
+
+    margin: 40px;
+}
+
+.btn{
+    height: 150px;
+    width: 300px;
+    border-radius: 10px;
+    border: none;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,.3);
+    font-size: 30px;
+    color: white;
+    font-family: sans-serif;
+    background-image: url("Images/Bird_1.jpg");
+    background-size: cover;
+    text-shadow: 2px 2px 4px rgba(0,0,0,.3);
+    cursor: pointer;
+}
+
+.btn:hover{
+    color: orangered;
+}
